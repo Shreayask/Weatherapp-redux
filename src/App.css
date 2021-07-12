@@ -1,6 +1,27 @@
 .App {
   text-align: center;
+ 
+  height: 100vh;
+  box-sizing: border-box;
+  background-image: url("https://ak.picdn.net/shutterstock/videos/33981247/thumb/1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
+.container{
+  box-flex-group: rgb(219, 253, 108);
+  height: 20%;
+  box-sizing: border-box;
+}
+
+/*#main{
+  background-image: url("https://static5.depositphotos.com/1000875/537/v/600/depositphotos_5373161-stock-illustration-rain-vector-image-with-dark.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
 
 .App-logo {
   height: 40vmin;
@@ -25,7 +46,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #051f25e3;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +57,4 @@
     transform: rotate(360deg);
   }
 }
+
